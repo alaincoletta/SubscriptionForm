@@ -144,8 +144,8 @@ export default function App() {
         <input
           name="naam"
           type="text"
-          value={papa_last_name}
-          onChange={e => setPapaLastName(e.target.value)}
+          value={papa_first_name}
+          onChange={e => setPapaFirstName(e.target.value)}
           required />
       </label>
       </p>
